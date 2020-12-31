@@ -16,7 +16,7 @@ def getConfig():
     return titleColumns, cityTitle, centerTitle
 
 
-# 表格列标题转序号
+# 表格列标题转序号.
 def colname_to_num(colname):
     if type(colname) is not str:
         return colname
